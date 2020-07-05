@@ -11,9 +11,7 @@
 		<form id="crear" method="POST" action="{{url('/administrar')}}">
       @csrf
 			<div class="header">
-        
-        <h3>Registrar Restaurante</h3>
-            
+        <h3>Registrar Restaurante</h3>      
       </div>
             <!-- <div class="inputs"> -->
             	<input type="text" placeholder="Nombre" name="Nombre">
